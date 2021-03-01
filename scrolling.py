@@ -19,7 +19,7 @@ driver.execute_script("arguments[0].scrollIntoView();", flag)
 print("scrolled the page till the element is found")
 time.sleep(4)
 # scroll down the page till end of the page
-driver.execute_script("window.scrollTo(, document.body.scrollHeight);")
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 time.sleep(4)
 print("scrolled the page till the end")
 driver.close()
